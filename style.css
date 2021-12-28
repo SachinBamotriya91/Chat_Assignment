@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.super-container {
+    background: lightblue;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: lightblue;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    border-radius: 15px;
+}
+
+.chat-header {
+    padding: 10px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    margin: 0px 10px 0px 10px;
+}
+
+.chat-body {
+    /* background-color: rgb(255, 127, 138); */
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuLlm1VwnF_7vX8prnjlCo_A_KhPGzT-d2Xg&usqp=CAU");
+    background-size: cover;
+    padding: 10px;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 510px;
+}
+
+.chat-message {
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 1.5rem;
+    padding: 0.7em;
+    width: 70%;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+}
+
+#incoming {
+    display: flex;
+    flex-direction: row;
+}
+
+#outgoing {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+    padding: 0;
+}
+
+.chat-footer {
+    /* border: 1px solid black; */
+    background-color: lightblue;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.chat-footer div {
+    margin: 0.2em;
+}
+
+textarea {
+    width: 13.2em;
+    height: 2.2em;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-left: 17px;
+    border: none;
+    resize: none;
+}
+
+.send-button {
+    height: 40px;
+    margin-left: 20px;
+    width: 40px;
+    background-color: rgb(131, 157, 171);
+    border-radius: 50%;
+    color: whitesmoke;
+    display: inline-block;
+    border-collapse: collapse;
+}
